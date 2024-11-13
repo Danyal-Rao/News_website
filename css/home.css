@@ -1,0 +1,729 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+p{
+  text-align: justify;
+}
+.logo {
+  display: inline;
+  color: white;
+}
+.navbar ul {
+  float: right;
+}
+.navbar ul li {
+  float: left;
+  list-style: none;
+}
+.navbar ul li a {
+  padding: 0 5px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar {
+  height: 80px;
+  background-color: #073b4c;
+  padding: 15px 30px;
+}
+
+.parent {
+  display: flex;
+  /* justify-content: center; */
+  height: 400px;
+  background-color: #118ab2;
+}
+
+.parent h1 {
+  padding: 0 20px;
+  font-weight: bold;
+  font-style: italic;
+  height: 40px;
+  width: 230px;
+  color: #90e0ef;
+}
+
+/* class cricket heading stylesheet */
+
+.child1 {
+  /* border: 2px so lid #073b4c; */
+  width: 250px;
+  height: 300px;
+  margin: 50px 25px;
+  text-align: center;
+  background-color: #06d6a0;
+  color: white;
+  border-radius: 10px;
+  box-shadow: -1px 4px 53px 3px rgba(0, 0, 0, 0.034);
+  padding: 20px;
+}
+.child1 h2 {
+  font-weight: bold;
+  font-style: italic;
+  color: #073b4c;
+}
+.child1 button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #073b4c;
+  cursor: pointer;
+  margin-top: 10px;
+  border: none;
+  font-style: italic;
+  font-weight: bold;
+}
+.child1 button a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Hocky heading stylesheet */
+
+.child2 {
+  /* border: 2px solid #073b4c;    */
+  width: 250px;
+  height: 300px;
+  margin: 50px 25px;
+  text-align: center;
+  background-color: #06d6a0;
+  color: white;
+  border-radius: 10px;
+  box-shadow: -1px 4px 53px 3px rgba(0, 0, 0, 0.034);
+  padding: 20px;
+}
+.child2 h2 {
+  font-weight: bold;
+  font-style: italic;
+  color: #073b4c;
+}
+.child2 button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #073b4c;
+  cursor: pointer;
+  margin-top: 10px;
+  border: none;
+  font-style: italic;
+  font-weight: bold;
+}
+.child2 button a {
+  text-decoration: none;
+  color: white;
+}
+
+/* playing pubg content styling */
+.child3 {
+  border: 2px solid #073b4c;
+  width: 250px;
+  height: 300px;
+  margin: 50px 25px;
+  text-align: center;
+  background-color: #06d6a0;
+  color: white;
+  border-radius: 5px;
+  box-shadow: -1px 4px 53px 3px rgba(0, 0, 0, 0.034);
+}
+.child3 h2 {
+  font-weight: bold;
+  font-style: italic;
+  color: #073b4c;
+}
+.child3 button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #073b4c;
+  cursor: pointer;
+  margin-top: 10px;
+  border: none;
+  font-style: italic;
+  font-weight: bold;
+}
+.child3 button a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Parent1 div ending */
+
+/* parent2 working */
+
+.parent2 {
+  /* border: 2px solid black; */
+  /* margin: 5px 0; */
+  display: flex;
+  height: 400px;
+  background-color: #118ab2;
+}
+.parent2 h1 {
+  padding: 0 20px;
+  font-weight: bold;
+  font-style: italic;
+  height: 40px;
+  width: 250px;
+  color: #90e0ef;
+}
+.span1 {
+  border: 2px solid #073b4c;
+  width: 250px;
+  height: 300px;
+  margin: 50px 25px;
+  text-align: center;
+  background-color: #06d6a0;
+  color: white;
+  border-radius: 5px;
+  box-shadow: -1px 4px 53px 3px rgba(0, 0, 0, 0.034);
+}
+.span1 h2 {
+  font-weight: bold;
+  font-style: italic;
+  color: #073b4c;
+}
+.span1 button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #073b4c;
+  cursor: pointer;
+  margin-top: 10px;
+  border: none;
+  font-style: italic;
+  font-weight: bold;
+}
+.span1 button a {
+  text-decoration: none;
+  color: white;
+}
+.span2 {
+  border: 2px solid #073b4c;
+  width: 250px;
+  height: 300px;
+  margin: 50px 25px;
+  text-align: center;
+  background-color: #06d6a0;
+  color: white;
+  border-radius: 5px;
+  box-shadow: -1px 4px 53px 3px rgba(0, 0, 0, 0.034);
+}
+.span2 h2 {
+  font-weight: bold;
+  font-style: italic;
+  color: #073b4c;
+}
+.span2 button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #073b4c;
+  cursor: pointer;
+  margin-top: 10px;
+  border: none;
+  font-style: italic;
+  font-weight: bold;
+}
+.span2 button a {
+  text-decoration: none;
+  color: white;
+}
+.span3 {
+  border: 2px solid #073b4c;
+  width: 250px;
+  height: 300px;
+  margin: 50px 25px;
+  text-align: center;
+  background-color: #06d6a0;
+  color: white;
+  border-radius: 5px;
+  box-shadow: -1px 4px 53px 3px rgba(0, 0, 0, 0.034);
+}
+.span3 h2 {
+  font-weight: bold;
+  font-style: italic;
+  color: #073b4c;
+}
+.span3 button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #073b4c;
+  cursor: pointer;
+  margin-top: 10px;
+  border: none;
+  font-style: italic;
+  font-weight: bold;
+}
+.span3 button a {
+  text-decoration: none;
+  color: white;
+}
+/* span waly hissy ki ending */
+/* container wal hissa idr sy shro */
+
+.container {
+  display: flex;
+  height: 400px;
+  background-color: #118ab2;
+}
+.container h1 {
+  padding: 0 20px;
+  font-weight: bold;
+  font-style: italic;
+  height: 40px;
+  width: 230px;
+  color: #90e0ef;
+}
+.room1 {
+  border: 2px solid #073b4c;
+  width: 250px;
+  height: 300px;
+  margin: 50px 25px;
+  text-align: center;
+  background-color: #06d6a0;
+  color: white;
+  border-radius: 5px;
+  box-shadow: -1px 4px 53px 3px rgba(0, 0, 0, 0.034);
+}
+.room1 button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #073b4c;
+  cursor: pointer;
+  margin-top: 10px;
+  border: none;
+  font-style: italic;
+  font-weight: bold;
+}
+.room1 button a {
+  text-decoration: none;
+  color: white;
+}
+
+.room2 {
+  border: 2px solid #073b4c;
+  width: 250px;
+  height: 300px;
+  margin: 50px 25px;
+  text-align: center;
+  background-color: #06d6a0;
+  color: white;
+  border-radius: 5px;
+  box-shadow: -1px 4px 53px 3px rgba(0, 0, 0, 0.034);
+}
+.room2 button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #073b4c;
+  cursor: pointer;
+  margin-top: 10px;
+  border: none;
+  font-style: italic;
+  font-weight: bold;
+}
+.room2 button a {
+  text-decoration: none;
+  color: white;
+}
+.room3 {
+  border: 2px solid #073b4c;
+  width: 250px;
+  height: 300px;
+  margin: 50px 25px;
+  text-align: center;
+  background-color: #06d6a0;
+  color: white;
+  border-radius: 5px;
+  box-shadow: -1px 4px 53px 3px rgba(0, 0, 0, 0.034);
+}
+.room3 button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #073b4c;
+  cursor: pointer;
+  margin-top: 10px;
+  border: none;
+  font-style: italic;
+  font-weight: bold;
+}
+.room3 button a {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+
+/* about page css  */
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+body{
+ background-image: url(../images/aboutimage.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+}
+
+.navbar2{
+  height: 80px;
+  background-color: #073b4c;
+  padding: 15px 30px;
+
+}
+.navbar2 ul{
+  float: right;
+}
+.navbar2 ul li{
+  float: left;
+  list-style: none;
+ 
+}
+.navbar2 ul li a{
+  padding: 0 5px;
+text-decoration: none;
+font-size: 20px;
+font-weight: bold;
+color: white;
+  
+}
+.navbar2 h1{
+  display: inline;
+  color: white;
+}
+
+.parent3{
+  /* border: 2px solid black; */
+  width: 1000px;
+  margin: 15px auto;
+  padding: 20px;
+  background-image:url(../images/aboutuspage2.webp) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aquamarine;
+  box-shadow: -21px -9px 31px -3px rgba(28,24,19,0.49);
+}
+.parent3 h1{
+  margin-bottom: 10px;
+}
+
+
+
+/* pubg page css  */
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+ background-image: url(../images/pubg4.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+}
+body h1{
+  color: white;
+}
+.navbar6{
+  height: 80px;
+  background-color: #073b4c;
+  padding: 15px 30px;
+}
+.navbar6 ul{
+  float: right;
+}
+.navbar6 ul li{
+  float: left;
+  list-style: none;
+}
+.navbar6 ul li a{
+  padding: 0 5px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.navbar6 h1{
+  display: inline;
+  color: white;
+}
+.parent7{
+   display: flex;
+   margin: 10px 60px;
+}
+.pubg1{
+    /* border: 2px solid black; */
+  border-radius: 10px;
+  width: 500px;
+  height: 300px;
+  padding: 15px 15px;
+  margin: 15px 50px;
+  background-color: #073b4c;
+  color: white;
+  font-weight: bold;
+}
+.pubg2{
+  /* border: 2px solid black; */
+  border-radius: 10px;
+  width: 500px;
+  height: 300px;
+  margin: 15px 50px;
+  background-image: url(../images/pubg\ image2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.pubg3{
+   /* border: 2px solid black; */
+   border-radius: 10px;
+   width: 1000px;
+   height: 150px;
+   padding: 15px 15px;
+   margin: 15px auto;
+   background-color: #073b4c;
+   color: white;
+   font-weight: bold;
+}
+footer{
+  color: white;
+}
+
+
+
+/* contact page css  */
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+body{
+ background-image: url(../images/contactimage.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.navbar3{
+  height: 80px;
+  background-color: #073b4c;
+  padding: 15px 30px;
+}
+.navbar3 ul{
+ float: right;    
+}
+.navbar3 ul li{
+  float: left;
+  list-style: none;
+}
+.navbar3 ul li a{
+  padding: 0 5px;
+text-decoration: none;
+font-size: 20px;
+font-weight: bold;
+color: white;
+}
+.navbar3 h1{
+  display: inline;
+  color: white;
+}
+.paragraphs{
+  /* border:2px solid black; */
+  height: 200x;
+  margin: 10px auto;
+  width: 1000px;
+  background-color: #1d3557;
+  box-shadow: -21px -9px 31px -3px rgba(23,84,179,0.49);
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+}
+
+form{
+  text-align: center;
+}
+
+.inputName{
+  padding: 20px 60px;
+  border: none;
+  outline: none;
+border-radius: 8px;
+}
+.form-label{
+  color: #06d6a0;
+  font-size: 25px;
+text-transform: uppercase;
+}
+.submitBtn{
+  padding: 15px 35px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 8px;
+  background-color: #06d6a0;
+}
+
+
+/* hocky css  */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+body{
+  background-image: url(../images/hockey\ image2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.navbar5{
+  height: 80px;
+  background-color: #073b4c;
+  padding: 15px 30px;
+}
+.navbar5 ul{
+  float: right;
+}
+.navbar5 ul li{
+  float: left;
+  list-style: none;
+
+}
+.navbar5 ul li a{
+  padding: 0 5px;
+text-decoration: none;
+font-size: 20px;
+font-weight: bold;
+color: white;
+}
+.navbar5 h1{
+  display: inline;
+  color: white;
+}
+.parent6 h1{
+  color: white;
+}
+.Hocker1{
+  display: flex;
+  margin: 15px auto;
+  
+  
+}
+.Hockey2{
+  /* border: 2px solid black; */
+  border-radius: 10px;
+  width: 500px;
+  height: 300px;
+  padding: 15px 15px;
+  margin: 15px 50px;
+  background-color: #073b4c;
+  color: white;
+  font-weight: bold;
+}
+.img2{
+  /* border: 2px solid black; */
+  border-radius: 10px;
+  width: 500px;
+  height: 300px;
+  margin: 15px 50px;
+  background-image:url(../images/hocky\ image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.Hockey3{
+   /* border: 2px solid black; */
+   border-radius: 10px;
+   width: 1000px;
+   height: 150px;
+   padding: 15px 15px;
+   margin: 8px auto;
+   background-color: #073b4c;
+   color: white;
+   font-weight: bold;   
+}
+footer{
+  color: white;
+}
+
+/* cricket page css  */
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+body{
+  background-image: url(../images/cricket\ image2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.navbar4{
+  height: 80px;
+  background-color: #073b4c;
+  padding: 15px 30px;
+}
+.navbar4 ul{
+  float: right;  
+}
+.navbar4 ul li{
+  float: left;
+  list-style: none;
+}
+.navbar4 ul li a{
+  padding: 0 5px;
+text-decoration: none;
+font-size: 20px;
+font-weight: bold;
+color: white;
+}
+.navbar4 h1{
+  display: inline;
+  color: white;
+}
+.parent5 h1{
+    color: #073b4c;
+}
+.cricketmen{
+    display: flex;
+}
+.ckt{
+   /* border: 2px solid black; */
+   width: 500px;
+   height: 250px;
+   margin: 0 15px;
+   border-radius: 10px;
+   padding: 15px 10px;
+   background-color: #073b4c;
+   color: white;
+   font-weight: bold;
+}
+.img{
+   /* border: 2px solid black; */
+   width:800px;
+   height: 250px; 
+   background-image: url(../images/cricket\ image.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;  
+   border-radius: 10px;
+}
+.youngmen{
+  text-align: justify;
+  margin: 20px auto;
+    width: 500px;
+  height: 250px;
+  color: white;
+}
+footer{
+  color: white;
+}
+
